@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="chat">
+    <section id="sidebar">
+        <header>
+            <h1 class="title">Company Inc <i class="fa fa-angle-down"></i></h1>
+            <i class="fa fa-bell-o pull-right notifications"></i>
+            <span class="user">
+            <i class="fa fa-circle status online"></i>
+            Fulano de Tal
+          </span>
+        </header>
+        <section class="body">
+            <h2 class="title">Channels <span class="count">(127)</span></h2>
+            <i class="fa fa-plus-square-o add channel"></i>
+            <div class="clearfix"></div>
+            <ul id="channels" class="chat list-unstyled">
+                <li>
+                    <span class="public"></span>
+                    <span>chat name</span>
+                </li>
+                <li class="active">
+                    <span class="public"></span>
+                    <span>chat name</span>
+                </li>
+                <li>
+                    <span class="public"></span>
+                    <span>chat name</span>
+                </li>
+                <li>
+                    <span class="private"></span>
+                    <span>chat name</span>
+                </li>
+            </ul>
+
+            <h2 class="title">Direct Messages</h2>
+            <i class="fa fa-plus-square-o add direct"></i>
+            <div class="clearfix"></div>
+            <ul id="direct-message" class="chat list-unstyled">
+                <li>
+                    <span class="online"></span>
+                    <span>Person name</span>
+                </li>
+                <li class="active">
+                    <span class="online"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li class="unread">
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li class="unread">
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                    <span class="badge pull-right">3</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                    <span class="badge pull-right">3</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+                <li>
+                    <span class="offline"></span>
+                    <span>Person name</span>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section id="main">
+        <header>
+            <div class="pull-left info">
+                <span class="title">#channel</span>
+                <ul class="list-inline">
+                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-user-o" aria-hidden="true"></i> 26</li>
+                    <li><i class="fa fa-thumb-tack" aria-hidden="true"></i> 1</li>
+                    <li>Add a topic</li>
+                </ul>
+            </div>
+            <div class="pull-right options">
+                <ul class="list-inline">
+                    <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-id-card-o" aria-hidden="true"></i></li>
+                    <li>Search</li>
+                    <li>@</li>
+                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-ellipsis-v" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+        <section class="body">
+            <div class="message">
+                <div class="person">
+                    <img src="http://178.62.201.127/sites/default/files/default_images/default-user.png" />
+                </div>
+                <div class="info">
+                    <span class="name">Fulano de Tal</span>
+                    <span class="time">10:48 AM</span>
+                </div>
+                <div class="content">
+                    <span class="text">Message 1</span>
+                </div>
+                <div class="content">
+                    <span class="text">Message 2</span>
+                </div>
+                <div class="content">
+                    <span class="text">Message 3</span>
+                </div>
+            </div>
+            <div class="divider">
+                <div class="line"></div>
+                <span>Today</span>
+                <div class="line"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="message">
+                <div class="person">
+                    <img src="http://178.62.201.127/sites/default/files/default_images/default-user.png" />
+                </div>
+                <div class="info">
+                    <span class="name">Fulano de Tal</span>
+                    <span class="time">10:48 AM</span>
+                </div>
+                <div class="content">
+                    <span class="text">Message 1</span>
+                </div>
+                <div class="content">
+                    <span class="text">Message 2</span>
+                </div>
+                <div class="content">
+                    <span class="text">Message 3</span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="message">
+                <div class="person">
+                    <img src="http://178.62.201.127/sites/default/files/default_images/default-user.png" />
+                </div>
+                <div class="info">
+                    <span class="name">Fulano de Tal</span>
+                    <span class="time">10:48 AM</span>
+                </div>
+                <div class="content">
+                    <span class="text"><a href="https://github.com/falci/" target="_blank">https://github.com/falci/</a></span>
+                    <div class="link">
+                        <div>
+                            <span class="site-name">
+                                <img src="https://assets-cdn.github.com/favicon.ico" />
+                                GitHub
+                            </span>
+                            <a href="https://github.com/falci/" target="_blank">Falci (Fernando Falci)</a>
+                            <span class="description">Falci has 75 repositories available. Follow their code on GitHub.</span>
+                        </div>
+                        <img src="https://avatars2.githubusercontent.com/u/1330573?v3&amp;s400" alt="Falci (Fernando Falci)">
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        <footer>
+            <button id="attachment" class="fa"></button>
+            <textarea id="text"></textarea>
+            <button id="emoji" class="fa"></button>
+        </footer>
+    </section>
+</div>
+</body>
+</html>
